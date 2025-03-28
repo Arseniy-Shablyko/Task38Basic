@@ -1,1 +1,1 @@
-#pragma once
+int multiply(int number, int multiplier);
