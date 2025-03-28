@@ -12,6 +12,7 @@ void test01() {
 
 	int expected = 10;
 	int actual = multiply(number, multiplier);
+	print(number, multiplier, expected == actual);
 }
 
 void test02() {
@@ -20,6 +21,7 @@ void test02() {
 
 	int expected = -10;
 	int actual = multiply(number, multiplier);
+	print(number, multiplier, expected == actual);
 }
 
 void test03() {
@@ -28,6 +30,7 @@ void test03() {
 
 	int expected = -10;
 	int actual = multiply(number, multiplier);
+	print(number, multiplier, expected == actual);
 }
 
 void test04() {
@@ -36,4 +39,5 @@ void test04() {
 
 	int expected = 10;
 	int actual = multiply(number, multiplier);
+	print(number, multiplier, expected == actual);
 }
